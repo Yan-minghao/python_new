@@ -1,4 +1,8 @@
-#列表
+#列表 序列
+  # 可变序列 list
+  # 不可变序列
+  #         字符串 str
+  #         元组 tuple
 # my_list =[10,1111111] #创建空列表
 # print(my_list,type(my_list))
 # # print(my_list[3])
