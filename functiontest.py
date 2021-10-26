@@ -46,5 +46,37 @@ def fn4(a,b,c):
     print(b)
     print(c)
 h= {'a':100,'b':200,'c':123 }
-fn4(**h)
+# fn4(**h)
 # fu2(**)
+
+# help() python 中内置函数  help(obj)
+# 文档字符串 doc str
+# DocStrings 文档字符串使用惯例：它的首行简述函数功能，第二行空行，第三行为函数的具体描述。
+def fu5(a:int,b:str='100')->int :
+    '''这是一个helloword 文档字符串
+
+    hhhhhhhh
+    '''
+
+    return 10
+print(fu5.__doc__)
+help(fu5(1))
+
+def printMax(x, y):
+    '''打印两个数中的最大值。
+
+    两个值必须都是在整形数。'''
+    x = int(x)
+    y = int(y)
+    if x > y:
+        print(x, '最大')
+    else:
+        print(y, '最大')
+
+
+printMax(3, 5)
+print(printMax.__doc__)  # 调用 doc
+
+
+###高阶函数
+
