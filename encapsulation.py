@@ -3,15 +3,17 @@
 
 
 class Dog:
-    def __init__(self,name,age,gender,height):
-        self._name=name
-        self._age=age
-        self._gender=gender
-        self._height=height
+    def __init__(self, name, age, gender, height):
+        self._name = name
+        self._age = age
+        self._gender = gender
+        self._height = height
         # print('初始化基本信息完成')
+
     def run(self):
         pass
         # print('开始跑了%s',self.hide_age,self.hide_age,self.hide_gender,self.hide_height)
+
     # def get_name(self):
     #     return self.hide_name
     # def set_name(self,name):
@@ -21,10 +23,11 @@ class Dog:
         return self._name
 
     @name.setter
-    def name(self,name):
-        self._name =name
+    def name(self, name):
+        self._name = name
 
-d=Dog('旺财',1,'男','25cm')
+
+d = Dog('旺财', 1, '男', '25cm')
 print(d.name)
-d.name='sadasd'
+d.name = 'sadasd'
 print(d.name)

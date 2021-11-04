@@ -8,8 +8,8 @@
 # # print(d.pop('name'))
 # print(d.get('111'))
 
-#字典使用
-#创建字典[]
+# 字典使用
+# 创建字典[]
 # d =dict([('name','🎺'),('age',18),('email','ymh254089@163.com')])
 # print(len(d))
 # print(len(d))
@@ -35,7 +35,7 @@
 # re=d.popitem('name1','hhhhhh')
 # print()
 
-d ={'name':'🎺','age':18,'email' : 'ymh254089@163.com'}
+d = {'name': '🎺', 'age': 18, 'email': 'ymh254089@163.com'}
 # 遍历字典 keys values  items
 # key 遍历
 # print(d.keys())
@@ -49,7 +49,3 @@ d ={'name':'🎺','age':18,'email' : 'ymh254089@163.com'}
 
 # for k,v in d.items() :
 #     print(k,'',v)
-
-
-
-

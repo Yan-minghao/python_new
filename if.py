@@ -19,5 +19,3 @@
 # elif score >= 60 and score <= 79 :
 #     print('奖励一本参考书')
 # else:print('什么奖励都没有')
-
-
